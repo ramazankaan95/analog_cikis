@@ -5,7 +5,7 @@ void setup() {
   pinMode(ledpin, OUTPUT);
 }
 
-void loop() {
+void loop() {545
   potdeger=analogRead(A0);
   analogWrite(ledpin, potdeger/4);
 }
